@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LaddaBilKompaniet</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#start"><strong>LaddaBilKompaniet</strong></a>
+      <nav>
+        <ul>
+          <li><a href="#start">Hem</a></li>
+          <li><a href="#products">Produkter</a></li>
+          <li><a href="#about">Om oss</a></li>
+          <li><a href="#contact">Kontakta oss</a></li>
+        </ul>
+      </nav>
+
+      <p class="slogan"><strong>CHARGE ENERGY, SAVE LIVES</strong></p>
+    </header>
+    <main>
+      <section id="start">
+        <h1 class="center-text">Välkommen till LaddaBilKompaniet!</h1>
+        <img
+          class="big-img"
+          src="https://images.unsplash.com/photo-1606131959866-21ca5619bac5?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="White and black car charger connected to a white car"
+        />
+        <article class="center-text">
+          <p>Välkommen till företaget som värnar om miljön samt plånboken!</p>
+          <p>Räddar din plånbok sedan 2025!</p>
+        </article>
+      </section>
+      <section id="products">
+        <h2 class="center-text">Produkter</h2>
+
+        <div class="products">
+          <article class="prod">
+            <h3>KMP X5</h3>
+            <img
+              src="https://plus.unsplash.com/premium_photo-1715115406713-fd67ecea8dcc?q=80&w=993&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="White car charger with green light coming from the charger cable"
+            />
+            <p>Kompaniets egna 11kw laddbox</p>
+
+            <p>fr. 4999 kr</p>
+          </article>
+          <article class="prod">
+            <h3>KMP X1+1</h3>
+            <img
+              src="https://images.unsplash.com/photo-1713771284743-e0d11ac7a80b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Two white and black car chargers with a black cable"
+            />
+            <p>Kompaniets prisvinnande dubbel 22kw laddare</p>
+            <p>fr. 8999</p>
+          </article>
+          <article class="prod">
+            <h3>KMP X10</h3>
+            <img
+              src="https://images.unsplash.com/photo-1600490819734-6311c5c6f517?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Black car charger hanging on a concrete wall"
+            />
+            <p>Kompaniets senaste laddare (11kw & 22kw)</p>
+            <p>299kr (Stock)</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 class="center-text">Om oss</h2>
+       <video src="https://media.istockphoto.com/id/1372581099/sv/video/electric-car-being-plugged-in-and-charging-in-electric-vehicle-parking-at-dusk.mp4?s=mp4-640x640-is&k=20&c=uo9eQtP3f7qJsJNjsUowiY9iQUMu3LvRJW5AQxaenvU=" loop autostart></video>
+        <article class="center-text">
+          LaddaBilKompaniet grundades 2025 av elbilsentusiasten Armin Akhtarzand
+          med en enkel idé – att göra det enkelt och tryggt att ladda bilen
+          hemma. Vi erbjuder moderna laddboxar av hög kvalitet som passar både
+          privatpersoner och företag, med fokus på säkerhet, pålitlighet och
+          smidig installation. För oss handlar laddning om mer än bara teknik–
+          det handlar om att bidra till en hållbar framtid och göra övergången
+          till elbil så enkel som möjligt. Därför lever vi efter vårt motto:
+          <br />
+          <strong>CHARGE ENERGY, SAVE LIVES</strong>
+        </article>
+      </section>
+      <section id="contact">
+        <h2 class="center-text">Kontakta oss</h2>
+        <p><strong>OBS:</strong> Uppge kontakt information samt anledning nedanför.</p>
+        <p>Vi återkopplar med mer information så fort vi kan!</p>
+        <form action="" method="POST">
+          <fieldset>
+            <legend>Kontakt uppgifter</legend>
+            <div>
+              <label for="name">Namn</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div>
+              <label for="email">E-post</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div>
+              <label for="tel">Telefon</label>
+              <input type="tel" name="phone" id="phone" required />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Val</legend>
+            <div>
+              <label for="reason">Gällande</label>
+              <select name="reason" id="reason">
+                <option value="-">Välj ett alternativ</option>
+                <option value="question">Frågor</option>
+                <option value="offer">Offert</option>
+                <option value="fault">Felanmälan</option>
+              </select>
+            </div>
+            <div>
+               <label for="product" requ>Produkt</label>
+              <select name="product" id="product">
+                <option value="-">Välj ett alternativ</option>
+                <option value="question">KMP X5</option>
+                <option value="offer">KMP X1+1</option>
+                <option value="fault">KMP X10</option>
+              </select>
+            </div>
+            <br>
+            <div>
+              <label for="message">Meddelande</label>
+              <br>
+              <textarea name="message" id="message" rows="5" cols="50"></textarea>
+            </div>
+            <button>Skicka</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      All rights reserved &copy; Armin Akhtarzand
+      <br />
+      <a href="mailto:kontakt@laddabilkmp.se">Mejl: kontakt@laddabilkmp.se</a>
+      <br />
+      <a href="tel:0764236585">Tel: 0764236585</a>
+      <br />
+      <a href="#privacy">Integritetspolicy</a>
+    </footer>
+  </body>
+</html>
