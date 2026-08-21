@@ -3,27 +3,28 @@ html {
   font-family: system-ui, sans-serif;
 }
 
-a {
-  margin-right: 10px;
-  color: black;
+header a,
+footer a {
+  color: white;
+  text-decoration: none;
 }
 body {
   margin: 0;
-  background-color: rgb(216, 244, 210);
+  background-color: #f8f9fa;
 }
 main {
   padding: 20px;
 }
 footer{
-  height: 150px;
-  background-color: rgb(242, 126, 126);
+  min-height: 150px;
+  background-color: #0f4c81;
 }
 header {
   height: 65px;
   position: sticky;
   top: 0;
   z-index: 20;
-  background-color: rgb(242, 126, 126);
+  background-color: #0f4c81;
 
   display: flex;
   align-items: center;
@@ -33,30 +34,35 @@ nav {
 }
 .slogan {
   margin-left: auto;
+  color: white;
+  padding: 10px;
 }
 section,
 header,
 footer {
-  padding: 12px 20px;
+  padding: 30x 20px;
 }
 
 section {
   min-height: 100vh;
   scroll-margin-top: 52px;
+  border-bottom: 1px solid #d9d9d9;
 }
 .big-img {
   width: 1000px;
   max-width: 100%;
   margin: auto;
   display: block;
-  object-fit: cover;
 }
 .big-vid {
   width: 1000px;
   max-width: 100%;
   margin: auto;
   display: block;
-  object-fit: cover;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
 }
 
 .center-text {
@@ -78,7 +84,6 @@ section {
   max-width: 350px;
   width: 100%;
   height: 250px;
-  object-fit: cover;
 }
 
 label{
@@ -87,4 +92,24 @@ label{
 }
 li{
   display: inline-block;
+}
+#start {
+    background: #dfdcdc;
+}
+
+#products {
+    background: #ebeaea;
+}
+
+#about {
+    background: #eff8ef;
+}
+
+#contact {
+    background: #f7f9fc;
+}
+
+#privacy {
+    background: #ffffff;
+    min-height: 50vh;
 }

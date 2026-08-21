@@ -18,7 +18,7 @@
         </ul>
       </nav>
 
-      <p class="slogan"><strong>CHARGE ENERGY, SAVE LIVES</strong>< /p></p>
+      <p class="slogan"><strong>CHARGE ENERGY, SAVE LIVES</strong></p>
     </header>
     <main>
       <section id="start">
@@ -28,10 +28,10 @@
           src="https://images.unsplash.com/photo-1606131959866-21ca5619bac5?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="White and black car charger connected to a white car"
         />
-        <article class="center-text">
+        <div class="center-text">
           <p>Välkommen till företaget som värnar om miljön samt plånboken!</p>
           <p>Räddar din plånbok sedan 2025!</p>
-        </article>
+        </div>
       </section>
       <section id="products">
         <h2 class="center-text">Produkter</h2>
@@ -43,8 +43,8 @@
               src="images/XM5.avif"
               alt="White car charger with green light coming from the charger cable"
             />
-            <p>Kompaniets egna 11kw laddbox</p>
-
+            <p>Kompaniets stilrena laddbox</p>
+            <p>11kw</p>
             <p>fr. 4999 kr</p>
           </article>
           <article class="prod">
@@ -53,8 +53,9 @@
               src="images/XM1+1.avif"
               alt="Two white and black car chargers with a black cable"
             />
-            <p>Kompaniets prisvinnande dubbel 22kw laddare</p>
-            <p>fr. 8999</p>
+            <p>Kompaniets prisvinnande dubbel laddare</p>
+            <p>22kw</p>
+            <p>fr. 8999 kr</p>
           </article>
           <article class="prod">
             <h3>KMP X10</h3>
@@ -62,9 +63,36 @@
               src="images/XM10.avif"
               alt="Black car charger hanging on a concrete wall"
             />
-            <p>Kompaniets senaste laddare (11kw & 22kw)</p>
-            <p>299kr (Stock)</p>
+            <p>Kompaniets senaste laddare</p>
+            <p>(11kw & 22kw)</p>
+            <p>fr. 6999 kr</p>
           </article>
+          <article class="prod">
+            <h3>KMP XLight</h3>
+            <img
+              src="images/XMLight.avif"
+              alt="White and black car charger on a pole"
+            />
+            <p>Kompaniets budget laddare</p>
+            <p>11kw</p>
+            <p>fr. 3999 kr</p>
+          </article>
+          <article class="prod">
+            <h3>KMP X2in1</h3>
+            <img
+              src="images/XM2in1.avif"
+              alt="White car charger with two cables attached, one yellow and one black cable"
+            />
+            <p>Kompaniets 2in1 laddare</p>
+            <p>22kw</p>
+            <p>fr. 7999 kr</p>
+          </article>
+        </div>
+
+        <div class="center-text">
+          <p><strong>OBS:</strong> Samtliga priser gäller UTAN installation</p>
+          <span>För mer information </span>
+          <a href="#contact">Kontakta oss</a>
         </div>
       </section>
 
@@ -74,7 +102,7 @@
           <source src="videos/video.mp4" />
           Din webbläsare stödjer inte video.
         </video>
-        <article class="center-text">
+        <div class="center-text">
           LaddaBilKompaniet grundades 2025 av elbilsentusiasten Armin Akhtarzand
           med en enkel idé – att göra det enkelt och tryggt att ladda bilen
           hemma. Vi erbjuder moderna laddboxar av hög kvalitet som passar både
@@ -84,37 +112,64 @@
           till elbil så enkel som möjligt. Därför lever vi efter vårt motto:
           <br />
           <strong>CHARGE ENERGY, SAVE LIVES</strong>
-        </article>
+        </div>
       </section>
-      <section id="contact">
+      <section id="contact" class="contact">
         <h2 class="center-text">Kontakta oss</h2>
+        <span
+          ><strong
+            >Dina personuppgifter används endast för att kunna besvara din
+            förfrågan. Läs mer i vår
+          </strong></span
+        >
+        <a href="#privacy"><strong>Integritetspolicy</strong></a>
+        <br />
         <p>
           <strong>OBS:</strong> Uppge kontakt information samt anledning
           nedanför.
         </p>
         <p>Vi återkopplar med mer information så fort vi kan!</p>
+
         <form action="" method="POST">
           <fieldset>
             <legend>Kontakt uppgifter</legend>
             <div>
               <label for="name">Namn</label>
-              <input type="text" id="name" name="name" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+              />
             </div>
 
             <div>
               <label for="email">E-post</label>
-              <input type="email" name="email" id="email" required />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+                required
+              />
             </div>
             <div>
-              <label for="tel">Telefon</label>
-              <input type="tel" name="phone" id="phone" required />
+              <label for="phone">Telefon</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                autocomplete="tel"
+                required
+              />
             </div>
           </fieldset>
           <fieldset>
             <legend>Val</legend>
             <div>
               <label for="reason">Gällande</label>
-              <select name="reason" id="reason">
+              <select name="reason" id="reason" required>
                 <option value="-">Välj ett alternativ</option>
                 <option value="question">Frågor</option>
                 <option value="offer">Offert</option>
@@ -122,7 +177,7 @@
               </select>
             </div>
             <div>
-              <label for="product" requ>Produkt</label>
+              <label for="product">Produkt</label>
               <select name="product" id="product">
                 <option value="-">Välj ett alternativ</option>
                 <option value="question">KMP X5</option>
@@ -145,10 +200,30 @@
           </fieldset>
         </form>
       </section>
+
+      <section id="privacy">
+        <h2 class="center-text">Integritetspolicy</h2>
+        <p>
+          När du kontaktar LaddaBilKompaniet via vårt kontaktformulär samlar vi
+          in de uppgifter du själv lämnar, såsom namn, e-postadress,
+          telefonnummer och ditt meddelande.
+        </p>
+        <p>
+          Uppgifterna används endast för att kunna besvara din förfrågan och ge
+          dig den hjälp eller information du efterfrågar. Vi delar inte dina
+          uppgifter med tredje part.
+        </p>
+        <p>
+          Har du frågor om hur vi hanterar dina personuppgifter är du välkommen
+          att kontakta oss via e-post på
+          <a href="mailto:kontakt@laddabilkmp.se">kontakt@laddabilkmp.se</a>.
+        </p>
+      </section>
     </main>
 
     <footer>
-      All rights reserved &copy; Armin Akhtarzand
+      <p><strong>LaddaBilKompaniet</strong></p>
+      <p>&copy; LaddaBilKompaniet 2025</p>
       <br />
       <a href="mailto:kontakt@laddabilkmp.se">Mejl: kontakt@laddabilkmp.se</a>
       <br />
