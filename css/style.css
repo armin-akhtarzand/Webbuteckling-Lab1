@@ -147,17 +147,17 @@ a:hover {
   color: white;
 }
 .sale {
-  background-color: rgb(255, 0, 0);
-  color: white;
+  background-color: rgb(224, 2, 2);
+  color: rgb(255, 255, 255);
 }
 .old-price{
   text-decoration: line-through;
-  color: gray;
+  color: rgb(93, 92, 92);
   margin-right: 10px;
 }
 .new-price{
   font-weight:bold;
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
 .prod img {
