@@ -15,9 +15,32 @@ form{
   max-width: 700px;
   margin: 0 auto;
 }
-header{
-  
+form label{
+  display: block;
 }
+form textarea{
+  width: 100%;
+}
+form div{
+  margin-bottom: 10px;
+}
+input, select,textarea{
+  width: 200px;
+  max-width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+}
+form button{
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: 1px solid black;
+  cursor: pointer;
+}
+fieldset{
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
 
 header a,
 footer a {
@@ -49,9 +72,6 @@ header {
 }
 nav a {
   padding: 10px;
-}
-button {
-  padding: 10px 20px;
 }
 .slogan {
   margin-left: auto;
@@ -108,10 +128,6 @@ a:hover {
   object-fit: cover;
 }
 
-label {
-  display: inline-block;
-  width: 100px;
-}
 li {
   display: inline-block;
 }
