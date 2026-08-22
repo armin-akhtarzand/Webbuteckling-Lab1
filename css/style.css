@@ -32,8 +32,11 @@ header {
   display: flex;
   align-items: center;
 }
-nav {
-  margin-left: 20px;
+nav a{
+  padding: 10px;
+}
+button{
+  padding: 10px 20px;
 }
 .slogan {
   margin-left: auto;
