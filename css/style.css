@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
   font-family: system-ui, sans-serif;
 }
+.logo-text{
+  color: rgb(225, 249, 223);
+}
 
 header a,
 footer a {
