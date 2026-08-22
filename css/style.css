@@ -125,8 +125,9 @@ a:hover {
   border: 2px solid lightgray;
   padding: 15px;
   background-color: #dbf8dc;
-  border-radius: 15%;
+  border-radius: 55px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
 }
 
 .prod img {
