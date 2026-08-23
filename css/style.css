@@ -87,7 +87,7 @@ fieldset {
   flex-wrap: wrap;
   padding: 10px 20px;
 }
-.featured{
+.featured {
   background-color: rgb(238, 250, 250);
 }
 .featured-prod {
@@ -119,11 +119,21 @@ nav a {
   display: block;
 }
 .big-vid {
-  width: 1000px;
+  width: 50%;
   max-width: 100%;
   margin: auto;
   display: block;
 }
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.about-text {
+  width: 50%;
+  text-align: center;
+}
+
 a:hover {
   text-decoration: underline;
   color: black;
@@ -165,20 +175,20 @@ a:hover {
   color: white;
 }
 .popular {
-  background-color:#0f4c81;
+  background-color: #0f4c81;
   color: white;
 }
 .sale {
   background-color: rgb(224, 2, 2);
   color: rgb(255, 255, 255);
 }
-.old-price{
+.old-price {
   text-decoration: line-through;
   color: rgb(93, 92, 92);
   margin-right: 10px;
 }
-.new-price{
-  font-weight:bold;
+.new-price {
+  font-weight: bold;
   color: rgb(0, 0, 0);
 }
 
@@ -219,16 +229,24 @@ li {
   min-height: 50vh;
 }
 @media (max-width: 1024px) {
-  .featured-prod{
+  .featured-prod {
     width: 48%;
   }
 }
 
 @media (max-width: 600px) {
-  .prod{
+  .prod {
     width: 100%;
   }
-  .featured-prod{
+  .about-content {
+    flex-direction: column;
+  }
+
+  .big-vid,
+  .about-text {
+    width: 100%;
+  }
+  .featured-prod {
     width: 100%;
   }
   header {
