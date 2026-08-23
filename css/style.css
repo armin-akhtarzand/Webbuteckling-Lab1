@@ -114,16 +114,17 @@ a:hover {
 .products-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
   flex-wrap: wrap;
   padding: 10px 20px;
 }
 
 .prod {
-  width: 350px;
+  width: 32%;
   text-align: center;
   border: 2px solid lightgray;
   padding: 15px;
+  box-sizing: border-box;
+  margin-right: 5px;
   background-color: #dbf8dc;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -190,7 +191,16 @@ li {
   background: #ffffff;
   min-height: 50vh;
 }
+@media (max-width: 1024px) {
+  .prod{
+    width: 48%;
+  }
+}
+
 @media (max-width: 600px) {
+  .prod{
+    width: 100%;
+  }
   header {
     height: auto;
     align-items: flex-start;
