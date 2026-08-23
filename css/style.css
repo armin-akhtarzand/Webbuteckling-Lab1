@@ -81,6 +81,28 @@ fieldset {
   margin-bottom: 20px;
   padding: 10px 20px;
 }
+.featured-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+.featured{
+  background-color: rgb(238, 250, 250);
+}
+.featured-prod {
+  width: 32%;
+  text-align: center;
+  border: 2px solid rgb(163, 163, 163);
+  padding: 15px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  background-color: #eef5af;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  position: relative;
+}
 
 nav a {
   padding: 10px;
@@ -116,15 +138,15 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px 20px;
+  gap: 2rem;
 }
 
 .prod {
-  width: 32%;
+  width: 225px;
   text-align: center;
   border: 2px solid lightgray;
   padding: 15px;
   box-sizing: border-box;
-  margin-right: 5px;
   background-color: #dbf8dc;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -167,6 +189,12 @@ a:hover {
   height: 250px;
   object-fit: cover;
 }
+.featured-prod img {
+  max-width: 100%;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
 
 li {
   display: inline-block;
@@ -195,10 +223,16 @@ li {
   .prod{
     width: 48%;
   }
+  .featured-prod{
+    width: 48%;
+  }
 }
 
 @media (max-width: 600px) {
   .prod{
+    width: 100%;
+  }
+  .featured-prod{
     width: 100%;
   }
   header {
