@@ -111,7 +111,7 @@ a:hover {
 .center-text {
   text-align: center;
 }
-.container {
+.products-container {
   display: flex;
   justify-content: center;
   gap: 2rem;
