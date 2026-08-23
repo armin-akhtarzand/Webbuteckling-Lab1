@@ -219,9 +219,6 @@ li {
   min-height: 50vh;
 }
 @media (max-width: 1024px) {
-  .prod{
-    width: 48%;
-  }
   .featured-prod{
     width: 48%;
   }
