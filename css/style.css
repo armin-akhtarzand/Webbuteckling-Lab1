@@ -102,7 +102,17 @@ fieldset {
   max-width: 100%;
   position: relative;
 }
-
+.buy-section {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.prod .quantity,
+.featured-prod .quantity {
+  width: 55px;
+}
 nav a {
   padding: 10px;
 }

@@ -18,7 +18,7 @@
           <li><a href="#contact">Kontakt</a></li>
         </ul>
       </nav>
-
+      <button id="showCartButton">🛒 Varukorg</button>
       <p class="slogan"><strong>CHARGE ENERGY, SAVE LIVES</strong></p>
     </header>
     <main>
@@ -55,7 +55,12 @@
             <p>Kompaniets budget laddare</p>
             <p>11kw</p>
             <p>fr. 3999 kr</p>
-            <button class="productButton" data-name="XLight">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="XLight">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="featured-prod">
             <span class="badge sale">REA</span>
@@ -70,7 +75,12 @@
               <span class="old-price">fr. 5999 kr</span>
               <span class="new-price">fr. 4999 kr</span>
             </p>
-            <button class="productButton" data-name="X5">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X5">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="featured-prod">
             <span class="badge new">Nyhet</span>
@@ -82,7 +92,12 @@
             <p>Kompaniets senaste laddare</p>
             <p>(11kw & 22kw)</p>
             <p>fr. 6999 kr</p>
-            <button class="productButton" data-name="X10">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X10">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
         </div>
       </section>
@@ -103,7 +118,12 @@
               <span class="old-price">fr. 5999 kr</span>
               <span class="new-price">fr. 4999 kr</span>
             </p>
-            <button class="productButton" data-name="X5">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X5">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="prod">
             <h3>KMP X1+1</h3>
@@ -114,7 +134,12 @@
             <p>Kompaniets prisvinnande dubbel laddare</p>
             <p>22kw</p>
             <p>fr. 8999 kr</p>
-            <button class="productButton" data-name="X1+1">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X1+1">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="prod">
             <span class="badge new">Nyhet</span>
@@ -126,7 +151,12 @@
             <p>Kompaniets senaste laddare</p>
             <p>(11kw & 22kw)</p>
             <p>fr. 6999 kr</p>
-            <button class="productButton" data-name="X10">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X10">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="prod">
             <span class="badge popular">Populär</span>
@@ -138,7 +168,12 @@
             <p>Kompaniets budget laddare</p>
             <p>11kw</p>
             <p>fr. 3999 kr</p>
-            <button class="productButton" data-name="XLight">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="XLight">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
           <article class="prod">
             <h3>KMP X2in1</h3>
@@ -146,13 +181,21 @@
               src="images/XM2in1.avif"
               alt="White car charger with two cables attached, one yellow and one black cable"
             />
-            <p>Kompaniets 2in1 laddare</p>
+            <p>Kompaniets 2in1 dubbel laddare</p>
             <p>22kw</p>
             <p>fr. 7999 kr</p>
-            <button class="productButton" data-name="X2in1">Lägg i varukorg</button>
+            <div class="buy-section">
+              <input type="number" class="quantity" value="1" min="1" />
+              <button class="productButton" data-name="X2in1">
+                Lägg i varukorg
+              </button>
+            </div>
           </article>
         </div>
-
+        <div class="cart-button-container">
+          <button id="cartButton">Visa varukorg</button>
+        </div>
+        
         <div class="center-text">
           <p><strong>OBS:</strong> Samtliga priser gäller UTAN installation</p>
           <span>För mer information </span>
