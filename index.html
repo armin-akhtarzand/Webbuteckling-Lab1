@@ -16,9 +16,9 @@
           <li><a href="#products">Produkter</a></li>
           <li><a href="#about">Om oss</a></li>
           <li><a href="#contact">Kontakt</a></li>
+          <li><button id="showCartButton">🛒 Varukorg</button></li>
         </ul>
       </nav>
-      <button id="showCartButton">🛒 Varukorg</button>
       <p class="slogan"><strong>CHARGE ENERGY, SAVE LIVES</strong></p>
     </header>
     <main>
@@ -192,8 +192,15 @@
             </div>
           </article>
         </div>
-        <div class="cart-button-container">
-          <button id="cartButton">Visa varukorg</button>
+        <div id="cart">
+          <h2 class="center-text">Varukorg</h2>
+          <div id="cartItems"></div>
+
+          <div class="close-cart">
+            <button id="closeCartButton">Stäng varukorg</button>
+          </div>
+          
+          
         </div>
         
         <div class="center-text">
