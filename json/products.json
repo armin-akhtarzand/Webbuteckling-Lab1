@@ -8,7 +8,8 @@
         "price": "fr. 4999 kr",
         "img": "images/XM5.avif",
         "imgAlt": "White car charger with green light coming from the charger cable",
-        "badge": "REA"
+        "badge": "REA",
+        "featured": true
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "voltage": "22kw",
         "price": "fr. 8999 kr",
         "img": "images/XM1+1.avif",
-        "imgAlt": "Two white and black car chargers with a black cable"
+        "imgAlt": "Two white and black car chargers with a black cable",
+        "featured": false
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "price": "fr. 6999 kr",
         "img": "images/XM10.avif",
         "imgAlt": "Black car charger hanging on a concrete wall",
-        "badge": "Nyhet"
+        "badge": "Nyhet",
+        "featured": true
     },
      {
         "id": 4,
@@ -37,7 +40,8 @@
         "price": "fr. 3999 kr",
         "img": "images/XMLight.avif",
         "imgAlt": "White and black car charger on a pole",
-        "badge": "Populär"
+        "badge": "Populär",
+        "featured": true
     },
      {
         "id": 5,
@@ -46,6 +50,7 @@
         "voltage":"22kw",
         "price": "fr. 7999 kr",
         "img": "images/XM2in1.avif",
-        "imgAlt": "White car charger with two cables attached, one yellow and one black cable"
+        "imgAlt": "White car charger with two cables attached, one yellow and one black cable",
+        "featured": false
     }
 ]
