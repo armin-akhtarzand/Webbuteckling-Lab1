@@ -5,6 +5,9 @@ html {
 * {
   box-sizing: border-box;
 }
+.hidden{
+  display:none;
+}
 header a,
 footer a {
   color: white;
