@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "KMP X5",
+        "description": "Kompaniets stilrena laddbox",
+        "voltage": "11kw",
+        "oldPrice": "fr. 5999 kr",
+        "price": "fr. 4999 kr",
+        "img": "images/XM5.avif",
+        "imgAlt": "White car charger with green light coming from the charger cable",
+        "badge": "REA"
+    },
+    {
+        "id": 2,
+        "name": "KMP X1+1",
+        "description": "Kompaniets prisvinnande dubbel laddare",
+        "voltage": "22kw",
+        "price": "fr. 8999 kr",
+        "img": "images/XM1+1.avif",
+        "imgAlt": "Two white and black car chargers with a black cable"
+    },
+    {
+        "id": 3,
+        "name": "KMP X10",
+        "description": "Kompaniets senaste laddare",
+        "voltage":"11kw & 22kw",
+        "price": "fr. 6999 kr",
+        "img": "images/XM10.avif",
+        "imgAlt": "Black car charger hanging on a concrete wall",
+        "badge": "Nyhet"
+    },
+     {
+        "id": 4,
+        "name": "KMP XLight",
+        "description": "Kompaniets budget laddare",
+        "voltage":"11kw",
+        "price": "fr. 3999 kr",
+        "img": "images/XMLight.avif",
+        "imgAlt": "White and black car charger on a pole",
+        "badge": "Populär"
+    },
+     {
+        "id": 5,
+        "name": "KMP X2in1",
+        "description": "Kompaniets 2in1 dubbel laddare",
+        "voltage":"22kw",
+        "price": "fr. 7999 kr",
+        "img": "images/XM2in1.avif",
+        "imgAlt": "White car charger with two cables attached, one yellow and one black cable"
+    }
+]
