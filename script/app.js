@@ -4,7 +4,8 @@ const getData = async () => {
   try {
     const response = await fetch("./json/products.json");
     if (!response.ok) {
-      console.error("Fel från servern " + response.status);
+      
+      throw new Error(`Fel från servern: ${response.status}`);
     }
 
     const products = await response.json();
@@ -203,7 +204,6 @@ const renderFeaturedProducts = (products) => {
 
 getData();
 
-const productButtons = document.querySelectorAll(".productButton");
 const productItem = {};
 
 function toggleCart() {
